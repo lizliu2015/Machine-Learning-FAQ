@@ -24,3 +24,9 @@ Gradient descent is an optimization algorithm used to find the values of paramet
 
 # Support Vector Machine
 
+### 1. Explain SVM
+ Support vector machines is a supervised machine learning algorithm which works both on classification and regression problems. It tries to classify data by finding a hyperplane that maximizes the margin between the classes in the training data. Hence, SVM is an example of a large margin classifier.
+The basic idea of support vector machines:
+Optimal hyperplane for linearly separable patterns
+Extend to patterns that are not linearly separable by transformations of original data to map into new space(i.e the kernel trick)
+
