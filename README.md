@@ -39,6 +39,7 @@ The basic idea of support vector machines:
 Explanation: Earlier we have discussed applying SVM on linearly separable data but it is very rare to get such data. Here, kernel trick plays a huge role. The idea is to map the non-linear separable data-set into a higher dimensional space where we can find a hyperplane that can separate the samples.
 
 It reduces the complexity of finding the mapping function. So, Kernel function defines the inner product in the transformed space. Application of the kernel trick is not limited to the SVM algorithm. Any computations involving the dot products (x, y) can utilize the kernel trick.
+![image](https://user-images.githubusercontent.com/13955626/161667426-190e69b1-55ca-4977-8ede-793f7a26c45f.png)
 
 ### 4. What do you mean by Hinge loss?
 Hinge Loss is a loss function which penalises the SVM model for inaccurate predictions.
