@@ -80,3 +80,12 @@ For formulating SVM as a regression problem statement we have to reverse the obj
 
 ### 9. What affects the decision boundary in SVM?
 Adding more instances off the margin of the hyperplane does not affect the decision boundary, it is fully determined (or supported ) by the instances located at the edge of the street called support vectors
+
+### 10. What is a slack variable?
+-  To meet the soft margin objective, we need to introduce a slack variable ε>=0 for each sample; it measures how much any particular instance is allowed to violate the margin.
+-  Here thing becomes little complex as we have conflicting objectives of making the slack variables as small as possible to reduce margin violation and make w (weight matrix) as small as possible to increase the margin. This is where the role of the C hyperparameter comes which allows us to define the trade-off between these two objectives.
+-  ![image](https://user-images.githubusercontent.com/13955626/161667711-0268aab8-ce91-4f93-a763-c88de3b69c74.png)
+
+### 11. Can an SVM classifier outputs a confidence score when it classifies an instance? What about a probability?
+- An SVM classifier can give the distance between the test instance and the decision boundary as output, so we can use that as a confidence score, but we cannot use this score to directly converted it into class probabilities.
+- But if you set probability=True when building a model of SVM in Scikit-Learn, then after training it will calibrate the probabilities using Logistic Regression on the SVM’s scores. By using this techniques, we can add the predict_proba() and predict_log_proba() methods to the SVM model.
