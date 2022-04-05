@@ -119,6 +119,7 @@ subject to
 This is also known as the primal form of SVM.
 
 The duality theory provides a convenient way to deal with the constraints. The dual optimization problem can be written in terms of dot products, thereby making it possible to use kernel functions.
+
 It is possible to express a different but closely related problem, called its dual problem. The solution to the dual problem typically gives a lower bound to the solution of the primal problem, but under some conditions, it can even have the same solutions as the primal problem. Luckily, the SVM problem happens to meet these conditions, so you can choose to solve the primal problem or the dual problem; both will have the same solution.
 ![image](https://user-images.githubusercontent.com/13955626/161668442-ff756697-fae5-48a6-99da-4ea2eabf697d.png)
 
