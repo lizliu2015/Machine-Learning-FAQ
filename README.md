@@ -42,5 +42,7 @@ For d-degree polynomials, the polynomial kernel is defined as:
 
 ### 4. What is RBF-Kernel?
 Explanation:
-The RBF kernel on two samples x and x’, represented as feature vectors in some input space, is defined as ||x-x’||² recognized as the squared Euclidean distance between the two feature vectors. sigma is a free parameter.
+The RBF kernel on two samples x and x’, represented as feature vectors in some input space, is defined as 
+![image](https://user-images.githubusercontent.com/13955626/161666111-106860b6-dbda-4832-aca2-fbd31fcc7d67.png)
+recognized as the squared Euclidean distance between the two feature vectors. sigma is a free parameter.
 
