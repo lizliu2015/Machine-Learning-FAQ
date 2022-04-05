@@ -39,10 +39,18 @@ It reduces the complexity of finding the mapping function. So, Kernel function d
 ### 3. What is Polynomial kernel?
 Explanation: Polynomial kernel is a kernel function commonly used with support vector machines (SVMs) and other kernelized models, that represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables, allowing learning of non-linear models.
 For d-degree polynomials, the polynomial kernel is defined as:
+![image](https://user-images.githubusercontent.com/13955626/161666167-f28b786d-bbb9-4441-9eec-31815ff99038.png)
+
 
 ### 4. What is RBF-Kernel?
 Explanation:
 The RBF kernel on two samples x and x’, represented as feature vectors in some input space, is defined as 
 ![image](https://user-images.githubusercontent.com/13955626/161666111-106860b6-dbda-4832-aca2-fbd31fcc7d67.png)
 recognized as the squared Euclidean distance between the two feature vectors. sigma is a free parameter.
+
+### 5.What is the role of C in SVM? How does it affect the bias/variance trade-off?
+In the given Soft Margin Formulation of SVM, C is a hyperparameter.
+C hyperparameter adds a penalty for each misclassified data point.
+Large Value of parameter C implies a small margin, there is a tendency to overfit the training model.
+Small Value of parameter C implies a large margin which might lead to underfitting of the model.
 
