@@ -21,3 +21,6 @@ If our model is too simple and has very few parameters then it may have high bia
 
 ### What is gradient descent? 
 Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost). Gradient descent is best used when the parameters cannot be calculated analytically (e.g. using linear algebra) and must be searched for by an optimization algorithm.
+
+# Support Vector Machine
+
