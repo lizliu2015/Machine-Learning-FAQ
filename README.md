@@ -110,8 +110,10 @@ Only if C is large, otherwise not.
 
 ### 17. Explain the Dual form of SVM formulation?
 Explanation: The aim of the Soft Margin formulation is to minimize
+
 ![image](https://user-images.githubusercontent.com/13955626/161668388-f8d66f5d-9a9a-45d4-8cca-fe55740f5f3a.png)
 subject to
+
 ![image](https://user-images.githubusercontent.com/13955626/161668406-37944771-7a81-4368-bffe-e98652dfe7c1.png)
 
 This is also known as the primal form of SVM.
