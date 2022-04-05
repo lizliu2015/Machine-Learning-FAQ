@@ -22,6 +22,20 @@ If our model is too simple and has very few parameters then it may have high bia
 ### What is gradient descent? 
 Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost). Gradient descent is best used when the parameters cannot be calculated analytically (e.g. using linear algebra) and must be searched for by an optimization algorithm.
 
+### What is AUC
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1. 
+
+The ROC curve is plotted with TPR against the FPR where TPR is on the y-axis and FPR is on the x-axis.
+
+![image](https://user-images.githubusercontent.com/13955626/161689982-8594dd38-52ca-4439-be0a-40ae92fc0146.png)
+
+An excellent model has AUC near to the 1 which means it has a good measure of separability. A poor model has an AUC near 0 which means it has the worst measure of separability. In fact, it means it is reciprocating the result. It is predicting 0s as 1s and 1s as 0s. And when AUC is 0.5, it means the model has no class separation capacity whatsoever.
+
+
+
+
+
+
 # Support Vector Machine
 
 ### 1. Explain SVM
