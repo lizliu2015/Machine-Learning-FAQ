@@ -77,3 +77,6 @@ The classifier in SVM is designed such that it is defined only in terms of the s
 
 ### 8. How you formulate SVM for a regression problem statement?
 For formulating SVM as a regression problem statement we have to reverse the objective: instead of trying to fit the largest possible street between two classes which we will do for classification problem statements while limiting margin violations, now for SVM Regression, it tries to fit as many instances as possible between the margin while limiting the margin violations.
+
+### 9. What affects the decision boundary in SVM?
+Adding more instances off the margin of the hyperplane does not affect the decision boundary, it is fully determined (or supported ) by the instances located at the edge of the street called support vectors
