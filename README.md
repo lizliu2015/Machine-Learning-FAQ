@@ -70,3 +70,6 @@ C hyperparameter adds a penalty for each misclassified data point.
 Large Value of parameter C implies a small margin, there is a tendency to overfit the training model.
 Small Value of parameter C implies a large margin which might lead to underfitting of the model.
 
+### 7. Can we apply the kernel trick to logistic regression? Why is it not used in practice then?
+Logistic Regression is computationally more expensive than SVM — O(N³) vs O(N²k) where k is the number of support vectors.
+The classifier in SVM is designed such that it is defined only in terms of the support vectors, whereas in Logistic Regression, the classifier is defined over all the points and not just the support vectors. This allows SVMs to enjoy some natural speed-ups (in terms of efficient code-writing) that is hard to achieve for Logistic Regression.
