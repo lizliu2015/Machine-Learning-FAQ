@@ -31,3 +31,16 @@ The basic idea of support vector machines:
 - Optimal hyperplane for linearly separable patterns
 - Extend to patterns that are not linearly separable by transformations of original data to map into new space(i.e the kernel trick)
 
+### 2. What’s the “kernel trick” and how is it useful?
+Explanation: Earlier we have discussed applying SVM on linearly separable data but it is very rare to get such data. Here, kernel trick plays a huge role. The idea is to map the non-linear separable data-set into a higher dimensional space where we can find a hyperplane that can separate the samples.
+
+It reduces the complexity of finding the mapping function. So, Kernel function defines the inner product in the transformed space. Application of the kernel trick is not limited to the SVM algorithm. Any computations involving the dot products (x, y) can utilize the kernel trick.
+
+### 3. What is Polynomial kernel?
+Explanation: Polynomial kernel is a kernel function commonly used with support vector machines (SVMs) and other kernelized models, that represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables, allowing learning of non-linear models.
+For d-degree polynomials, the polynomial kernel is defined as:
+
+### 4. What is RBF-Kernel?
+Explanation:
+The RBF kernel on two samples x and x’, represented as feature vectors in some input space, is defined as ||x-x’||² recognized as the squared Euclidean distance between the two feature vectors. sigma is a free parameter.
+
