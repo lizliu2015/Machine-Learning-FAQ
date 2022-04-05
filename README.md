@@ -61,23 +61,8 @@ A function is called kernel if there exist a function ϕ that maps a and b into 
 
 Some of the kernel functions are as follows:
 
-👉 Polynomial Kernel: These are the kernel functions that represent the similarity of vectors in a feature space over polynomials of original variables.
-
-👉 Gaussian Radial Basis Function (RBF) kernel:  Gaussian RBF kernel maps each training instance to an infinite-dimensional space, therefore it’s a good thing that you don’t need to perform the mapping.
-
-
-
-### 4. What is Polynomial kernel?
-Explanation: Polynomial kernel is a kernel function commonly used with support vector machines (SVMs) and other kernelized models, that represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables, allowing learning of non-linear models.
-For d-degree polynomials, the polynomial kernel is defined as:
-![image](https://user-images.githubusercontent.com/13955626/161666167-f28b786d-bbb9-4441-9eec-31815ff99038.png)
-
-
-### 5. What is RBF-Kernel?
-Explanation:
-The RBF kernel on two samples x and x’, represented as feature vectors in some input space, is defined as 
-![image](https://user-images.githubusercontent.com/13955626/161666111-106860b6-dbda-4832-aca2-fbd31fcc7d67.png)
-recognized as the squared Euclidean distance between the two feature vectors. sigma is a free parameter.
+- Polynomial Kernel: These are the kernel functions that represent the similarity of vectors in a feature space over polynomials of original variables.
+- Gaussian Radial Basis Function (RBF) kernel:  Gaussian RBF kernel maps each training instance to an infinite-dimensional space, therefore it’s a good thing that you don’t need to perform the mapping.
 
 ### 6. What is the role of C in SVM? How does it affect the bias/variance trade-off?
 In the given Soft Margin Formulation of SVM, C is a hyperparameter.
