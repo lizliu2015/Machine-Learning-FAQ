@@ -139,3 +139,32 @@ It is possible to express a different but closely related problem, called its du
 
 ### 18. Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
 This question applies only to linear SVMs since kernelized can only use the dual form. The computational complexity of the primal form of the SVM problem is proportional to the number of training instances m, while the computational complexity of the dual form is proportional to a number between m² and m³. So, if there are millions of instances, you should use the primal form, because the dual form will be much too slow.
+
+# Support Vector Machine (SVM) algorithm has following pros and cons:
+
+Pros:
+
+
+Clear: SVM provides a clear separation of data into classes. It works well and provides clear margin of separation between classes.
+
+
+High dimension: SVM is effective in classifying data in high dimensional space.
+
+
+Number of dimension: SVM can effectively classify data that has more number of dimensions than the number of samples.
+
+
+Memory: SVM uses a subset of training points in support vectors (decision function). Therefore it is an efficient algorithm from memory perspective.
+ 
+
+
+Cons:
+
+
+Low performance: SVM has low performance on a large data set, because it requires more training time to calculate and identify support vectors.
+
+
+Noise: SVM cannot perform well when classes are not distinct. High amount of noise or overlapping classes bring down the accuracy of SVM classification.
+
+
+Probability: We don’t get probability estimates with SVM.
